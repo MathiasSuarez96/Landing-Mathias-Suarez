@@ -1,0 +1,46 @@
+.header-title {
+  font-size: 4rem;
+  color: var(--color-terciado);
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.parrafo-title {
+  color: black;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.5rem;
+}
+
+.foto-header {
+  display: block;
+  margin: 2rem auto;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--color-primario);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transform: 0.4s ease, box-shadow 0.4s;
+}
+
+.foto-header:hover {
+  transform: scale(1.2);
+  box-shadow: 0, 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.nav-header {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,12 @@
+:root {
+  --color-primario: rgb(231, 227, 227);
+  --color-secundario: rgb(18, 18, 233);
+  --color-terciado: rgb(214, 43, 43);
+  --font-principal: "Poppins", sans-serif;
+  --espaciado: 1rem;
+}
+
+body {
+  background-color: var(--color-primario);
+  font-family: var(--font-principal);
+}
