@@ -32,15 +32,33 @@
   border-radius: 50%;
   border: 3px solid var(--color-primario);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  transform: 0.4s ease, box-shadow 0.4s;
+  transition: transform 0.4s ease, box-shadow 0.4s;
 }
 
 .foto-header:hover {
-  transform: scale(1.2);
-  box-shadow: 0, 8px 25px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
-
 .nav-header {
   display: flex;
   justify-content: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: var(--color-secundario);
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-list li a:hover {
+  color: var(--color-terciado);
 }

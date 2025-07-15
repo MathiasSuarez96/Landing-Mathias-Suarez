@@ -1,0 +1,23 @@
+.about-me {
+  font-size: 2rem;
+  color: var(--color-secundario);
+  letter-spacing: 0.5rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.parrafo-about-me {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2rem, 1rem;
+}
+
+@media (max-width: 600px) {
+  .about-me {
+    letter-spacing: 0.2rem;
+  }
+}
