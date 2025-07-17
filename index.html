@@ -16,22 +16,89 @@
     <link rel="stylesheet" href="Css/sobre-mi.css" />
     <link rel="stylesheet" href="Css/skills.css" />
     <link rel="stylesheet" href="Css/proyecto.css" />
+    <link rel="stylesheet" href="Css/footer.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
+   <header id="yo">
+  <h1 class="header-title">Mathias Suarez</h1>
+  <p class="parrafo-title">Desarrollador Full Stack en formación</p>
+
+  <img src="/IMG/Mathi-Proyecto.jpeg" alt="Mathias Suarez" class="foto-header" />
+
+  <nav class="nav-header">
+    <ul class="nav-list">
+      <li><a href="#sobre-mi">Yo</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+ <section id="sobre-mi">
+    <h2 class="about-me">Sobre Mi</h2>
+    <p class="parrafo-about-me">
+Actualmente me encuentro estudiando la carrera de Desarrollador Full Stack, porque me apasiona crear páginas web y aplicaciones desde cero, darles mi impronta y asegurarme de que todo funcione bien. Estoy trabajando con HTML, CSS y JavaScript, y comenzando a aprender React.
+
+El año pasado realicé un curso de Fundamentos de la Programación, donde incorporé bases sólidas de lógica, estructura y funciones. Desde chico me interesó el mundo de la tecnología, y hoy estoy enfocado en formarme y aplicar lo que aprendo en proyectos personales como este.
+
+Mi objetivo es ingresar al mundo IT, seguir creciendo y aportar en equipos reales. En mi <a href="https://github.com/MathiasSuarez96" target="_blank">GitHub</a> pueden ver mis proyectos y avances.
+</p>
+  </section>
+  <section id="skills">
+<ul class="skills-list">
+  <li><img src="IMG/html 5.png" alt="html-logo" class="icono-skills">HTML</li>
+  <li><img src="IMG/css.png" alt="css-logo" class="icono-skills">CSS</li>
+  <li><img src="IMG/JS.png" alt="js-logo" class="icono-skills">JavaScript</li>
+  <li><img src="IMG/git.png" alt="git-logo" class="icono-skills">GIT</li>
+</ul>
+ </section>
+ <section id="proyectos">
+  <h2 class="proyecto-title">Proyectos</h2>
+  <div class="proyecto-grid">
+    <div class="grid">
+      <h3>Cafe-canna</h3>
+      <p>Proyecto realizado en HTML y CSS, donde replico el sitio web de un coffee shop real. Me enfoqué en aplicar buenas prácticas de maquetado, estructura semántica y uso correcto de Flexbox y Grid. Fue mi primer experiencia completa armando una página desde cero.</p>
+      <img src="IMG/CafecanaLogo.jpeg" alt="cafe-cana-logo" class="cafecana" />
+      <a href="https://github.com/MathiasSuarez96/caffe-canna" target="_blank">Ver en Github</a>
+    </div>
+    <div class="grid">
+      <h3>Mi Landing</h3>
+      <p>Landing page personal desarrollada con HTML, CSS y JavaScript. En este proyecto presento mi perfil, formación, habilidades y enlaces relevantes. Me sirvió para practicar maquetación, diseño responsive y animaciones básicas con CSS. El contenido y el código están hechos desde cero.</p>
+      <img src="IMG/Mathi-Proyecto.jpeg" alt="Proyecto-Landing" class="Landing" />
+      <a href="https://github.com/MathiasSuarez96/Landing-Mathias-Suarez" target="_blank">Ver en Github</a>
+    </div>
+  </div>
+ </section>
     <footer id="Contacto" class="main-footer">
-      <h2 class="contacto">Contacto</h2>
-      <div class="footer-links">
-        <a href="https://github.com/MathiasSuarez96" target="_blank">GitHub</a>
-        <img src="IMG/github-logo.png" alt="logo-github" class="logo" />
-        <a href="https://www.linkedin.com/in/mathias-suarez-069641246/" target="_blank">Linkedin</a>
-        <img src="IMG/Linkedin logo.png" alt="logo-linkedin" class="logo" />
-        <a href="https://www.instagram.com/mathisuarez_7/#" target="_blank">instagram</a>
-        <img src="IMG/instagram logo.jpg" alt="logo-instagram" class="logo" />
-      </div>
-      <div class="bottom-footer">
-      <button class="boton-js">Mira la magia</button>
-      </div>
-    </footer>
+  <h2 class="contacto">Contacto</h2>
+
+  <div class="footer-links">
+    <a href="https://github.com/MathiasSuarez96" target="_blank">
+      <img src="IMG/github-logo.png" alt="GitHub logo" class="logo" />
+      GitHub
+    </a>
+
+    <a href="https://www.linkedin.com/in/mathias-suarez-069641246/" target="_blank">
+      <img src="IMG/Linkedin logo.png" alt="LinkedIn logo" class="logo" />
+      LinkedIn
+    </a>
+
+    <a href="https://www.instagram.com/mathisuarez_7/" target="_blank">
+      <img src="IMG/instagram logo.jpg" alt="Instagram logo" class="logo" />
+      Instagram
+    </a>
+
+    <a href="mailto:matisuar1899@gmail.com" target="_blank">
+      <img src="IMG/gmail-logo.png" alt="Gmail logo" class="logo" />
+      Gmail
+    </a>
+  </div>
+  
+  <div class="bottom-footer">
+    <button id="btn-magico">Mira la magia</button>
+  </div>
+</footer>
+<script src="JS/script.js"></script>
 </body>
 </html>

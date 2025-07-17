@@ -1,0 +1,61 @@
+.main-footer {
+  background-color: var(--color-secundario);
+  color: white;
+  text-align: center;
+  padding: 1rem 2rem;
+  margin-top: 3rem;
+}
+
+.contacto {
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.footer-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: var(--color-terciado);
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+a:hover .logo {
+  transform: scale(1.2);
+}
+
+.bottom-footer button {
+  background-color: var(--color-terciado);
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3 ease;
+}
+
+.bottom-footer button:hover {
+  transform: scale(1.05);
+}
